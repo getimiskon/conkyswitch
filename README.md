@@ -31,9 +31,11 @@ You can add your theme in the `alt_conf` directory if you want to. You can apply
 
 ### Additional Options
 
-There are a few additional options that you can use. You should type `--` before using them.
+There are a few additional options that you can use. You should type `--` before them.
 
 `backup` - Makes a backup of your current `conky.conf` file
+
+`restore` - Restores the last backup of your `conky.conf` file
 
 `help` - Displays the help screen
 
