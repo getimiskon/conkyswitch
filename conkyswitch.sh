@@ -7,11 +7,15 @@ case "$1" in
 		echo "(Available themes: light, dark)"
 		echo " "
 		echo "Other options:"
-		echo "--backup - makes a backup of your current conky.conf file"
-		echo "--help   - displays the help screen" 
+		echo "--backup  - makes a backup of your current conky.conf file"
+		echo "--restore - restores the last backup of the conky.conf file"
+		echo "--help    - displays the help screen" 
 		;;
 
 	"--backup")cp conky.conf conky.conf.bak
+		;;
+
+	"--restore")cp conky.conf.bak conky.conf
 		;;
 
 	"$1")cp conky.conf conky.conf.bak
