@@ -35,7 +35,7 @@ There are a few additional options that you can use. You should type `--` before
 
 `backup` - Makes a backup of your current `conky.conf` file
 
-`restore` - Restores the last backup of your `conky.conf` file
+`restore` - Restores the last backup of the conky.conf file
 
 `help` - Displays the help screen
 
